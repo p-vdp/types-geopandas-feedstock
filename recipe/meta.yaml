@@ -1,4 +1,4 @@
-{% set version = "1.1.4.20260725" %}
+{% set version = "1.1.4.20260728" %}
 
 package:
   name: types-geopandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-geopandas/types_geopandas-{{ version }}.tar.gz
-  sha256: 9d421992bc1bcd27ce7ec5ff88874a7385914cc2cf496a614e2468ccd75f7ea0
+  sha256: b3c534e2a3c66a579a3db86ad6e9b0bfaef5694f89683067e610c375c4d14bb1
 
 build:
   noarch: python
